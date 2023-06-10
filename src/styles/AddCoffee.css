@@ -1,0 +1,35 @@
+#mainDiv {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 30px 50px;
+}
+
+#tableDiv{
+    background: #6f4f32;
+    border-color: #6f4f32;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px 50px;
+}
+
+#delete{
+    background-color: #6f4f32;
+    color: #fff;
+}
+
+#add-button{
+    background-color: #e2963a;
+    border-color: #e2963a;
+}
+
+#editarbutton{
+    background-color: #e2963a;
+    color: #fff;
+}
