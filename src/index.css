@@ -12,3 +12,7 @@ code {
     monospace;
     background-color: black;
 }
+
+html, body, .App {
+  height: 100%;
+}

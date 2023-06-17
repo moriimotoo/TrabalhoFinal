@@ -1,8 +1,7 @@
 .App {
   text-align: center;
-  background-image: url('https://s2-g1.glbimg.com/kqI2xO7qLcLNG3vSBquYw8SDyc4=/0x0:5500x3667/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/e/q/1FKqhMQkilBFWem2Aq9w/000-338u8ty.jpg');
-  
-  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -18,7 +17,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;

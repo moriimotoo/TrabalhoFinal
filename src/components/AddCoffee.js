@@ -45,7 +45,7 @@ export const AddCoffee = () => {
         <div id='mainDiv'>
             <form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3">
-                <h1>NOVO ITEM</h1>
+                <h1 id='titulo'>NOVO ITEM</h1>
                     <InputGroup>
                         <Form.Control  type="text" placeholder="Item" value={taskItem} onChange={(e) => setTaskItem(e.target.value)} />
                     </InputGroup>

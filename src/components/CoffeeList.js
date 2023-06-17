@@ -38,8 +38,8 @@ export const CoffeeList = () => {
 
         
         if (existingTaskItem === "" || existingTaskDescricao === "") {
-            console.log("Required data missing");
-            alert("Please fill the required details");
+            console.log("Está faltando dados");
+            alert("Por favor, preencha os campos necessários");
             return;
         }
 
@@ -88,7 +88,7 @@ export const CoffeeList = () => {
 
     
     const showConfirm = async (id) => {
-        if (window.confirm('Tem certeza que quer excluir?')) {
+        if (window.confirm('Deseja realmente excluir?')) {
             try {
                 await CoffeeService.deleteTask(id)
             } catch (err) {
@@ -99,7 +99,8 @@ export const CoffeeList = () => {
     }
 
     return (
-        <div id='tableDiv'>
+        
+        <div style={{backgroundImage: "url(/bg.jpg)"}} id='tableDiv'>
             <h1> CAFÉS</h1>
             <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -141,7 +142,7 @@ export const CoffeeList = () => {
             </TableContainer>
 
             <Dialog open={open} onClose={handleUpdate}>
-                <h1 align="center">Atuzalizar</h1>
+                <h1 align="center">Atualizar</h1>
                 <DialogContent>
                     <DialogContentText>
 

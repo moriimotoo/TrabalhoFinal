@@ -33,3 +33,11 @@
     background-color: #e2963a;
     color: #fff;
 }
+
+#titulo{
+    background-color: #e2963a;
+    margin: 500;
+    max-width: 800px;
+    padding: 15px 15px;
+    margin-bottom: 10px;
+}
